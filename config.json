@@ -1,0 +1,205 @@
+{
+  "_comment": "Rossellini's Italian Cuisine - Complete Configuration File",
+  "_instructions": "This single file controls all content on the website. Customize values for your restaurant.",
+  "_version": "1.0",
+  "dates": {
+    "_comment": "Publication dates for SEO byline dates",
+    "published": "2020-01-15T00:00:00+00:00",
+    "modified": "2026-07-05T00:00:00+00:00"
+  },
+  "restaurant": {
+    "name": "Rossellini's Italian Cuisine",
+    "tagline": "Made in Italy, Imported to Daytona",
+    "description": "Best Italian restaurant near me in Daytona Beach, FL! Located on S Atlantic Ave, we're your top choice for Italian food near me, restaurants near me, and pasta near me. Authentic Italian cuisine — made in Italy, imported to Daytona. Fresh handmade pasta, pizza, seafood, and classic Italian dishes. Dine-in, takeout, and delivery in 32118. Order online! 🍝",
+    "phone": "(386) 253-8333",
+    "email": "info@rossellinisrestaurantfl.com",
+    "address": {
+      "street": "136 S Atlantic Ave",
+      "city": "Daytona Beach",
+      "state": "FL",
+      "zip": "32118"
+    },
+    "hours": {
+      "monday": "11:00 AM - 10:00 PM",
+      "tuesday": "11:00 AM - 10:00 PM",
+      "wednesday": "11:00 AM - 10:00 PM",
+      "thursday": "11:00 AM - 10:00 PM",
+      "friday": "11:00 AM - 10:00 PM",
+      "saturday": "11:00 AM - 10:00 PM",
+      "sunday": "11:00 AM - 10:00 PM"
+    },
+    "social": {
+      "Google": "https://search.google.com/local/reviews?placeid=ChIJ04dmZxba5ogRVjZTmKpFbeE",
+      "facebook": "",
+      "instagram": "",
+      "twitter": "",
+      "yelp": ""
+    },
+    "orderLink": "https://ser.vi/rossellinis?source=website&campaign=mainsite",
+    "colors": {
+      "_comment": "Brand colors used throughout the site",
+      "primary": "#e63b2e",
+      "secondary": "#ff7a5c",
+      "accent": "#c1150b",
+      "light": "#fff5f3",
+      "dark": "#6b120a",
+      "gray": "#6c757d"
+    },
+    "geo": {
+      "_comment": "Geographic coordinates for SEO and Google Maps",
+      "latitude": 29.2273,
+      "longitude": -81.0119,
+      "placeId": "ChIJ04dmZxba5ogRVjZTmKpFbeE",
+      "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Rossellini%27s+Italian+Cuisine+136+S+Atlantic+Ave+Daytona+Beach+FL+32118"
+    },
+    "api": {
+      "_comment": "API configuration for Google Reviews and other integrations",
+      "restaurantId": "rossellinis",
+      "googlePlaceId": "ChIJ04dmZxba5ogRVjZTmKpFbeE",
+      "reviewsApiUrl": "https://apireviews.restaurant.ink",
+      "apiKey": "ro_live_pk_h8i9j0k1l2m3n4o5p6q7r8s9t0u1v2w3"
+    }
+  },
+  "hero": {
+    "_comment": "Homepage hero section",
+    "title": "Rossellini's Italian Cuisine",
+    "subtitle": "Made in Italy, Imported to Daytona • Italian Restaurant Near Me • Fresh Pasta • Pizza • Seafood",
+    "description": "Best Italian Restaurant Near Me in Daytona Beach on S Atlantic Ave – Authentic Italian, Made Fresh Daily",
+    "backgroundImage": "assets/images/hero-bg.jpg",
+    "ctaText": "Order Online Now",
+    "ctaSecondary": "View Full Menu",
+    "ctaLink": "#order"
+  },
+  "about": {
+    "_comment": "About section content",
+    "title": "About Rossellini's Italian Cuisine – Best Italian Restaurant in Daytona Beach, FL",
+    "subtitle": "Made in Italy, Imported to Daytona",
+    "content": "Welcome to Rossellini's Italian Cuisine, your best Italian restaurant near me in Daytona Beach, FL! Located on S Atlantic Ave, steps from the beach, we're the top choice for Italian food near me, restaurants near me, and pasta near me. We serve authentic Italian cuisine — made in Italy, imported to Daytona.\\n\\nOur pastas are made fresh with traditional recipes, topped with slow-simmered sauces, imported cheeses, and the finest ingredients. Whether you're craving classic spaghetti and meatballs, chicken parmigiana, wood-fired pizza, or fresh seafood, we make it authentic and delicious.\\n\\nWe also serve antipasti, salads, calzones, desserts like tiramisu and cannoli, and daily specials. Perfect for dine-in, takeout, or delivery in Daytona Beach. Looking for the best Italian restaurant near me? You found it!\\n\\nAuthentic recipes. Quality service. Family tradition. Come hungry, leave happy! 🍝",
+    "image": "assets/images/about-deli.jpg",
+    "stats": [
+      {
+        "number": "100%",
+        "label": "Authentic Italian"
+      },
+      {
+        "number": "Fresh",
+        "label": "Made Daily"
+      },
+      {
+        "number": "1000s",
+        "label": "Happy Customers"
+      }
+    ]
+  },
+  "features": [
+    {
+      "icon": "basket",
+      "title": "Authentic Italian Ingredients",
+      "description": "We use imported Italian cheeses, olive oils, and premium ingredients in every dish — made in Italy, imported to Daytona"
+    },
+    {
+      "icon": "cup-hot",
+      "title": "Fresh Pasta & Pizza",
+      "description": "Handmade pasta and pizza made fresh daily. Your go-to spot for pizza near me and the best pasta in Daytona Beach"
+    },
+    {
+      "icon": "heart",
+      "title": "Beachside Favorite",
+      "description": "Serving Daytona Beach with dedication to authentic Italian quality and warm, family-style hospitality"
+    }
+  ],
+  "specialties": {
+    "_comment": "Menu highlights section header",
+    "title": "Our Specialties – Italian Restaurant Near Me | Fresh Pasta, Pizza, Seafood & Classic Italian",
+    "subtitle": "Fresh Pasta, Pizza Near Me, Seafood, Chicken Parmigiana, Salads & More",
+    "description": "Every dish is crafted with authentic recipes and made to order. From handmade pastas to wood-fired pizzas, fresh seafood, and classic Italian entrées. Best Italian restaurant near me, food near me, restaurants near me."
+  },
+  "menuHighlights": [
+    {
+      "_comment": "Featured menu items for homepage (set featured: true to display)",
+      "name": "Spaghetti & Meatballs",
+      "description": "Classic spaghetti with handmade meatballs in our slow-simmered marinara sauce",
+      "price": "$16.99",
+      "image": "https://images.unsplash.com/photo-1622973536968-3ead9e780960?w=600&q=80",
+      "category": "pasta",
+      "featured": true
+    },
+    {
+      "name": "Chicken Parmigiana",
+      "description": "Breaded chicken breast, marinara, melted mozzarella, served with pasta",
+      "price": "$18.99",
+      "image": "https://images.unsplash.com/photo-1632778149955-e80f8ceca2e8?w=600&q=80",
+      "category": "entree",
+      "featured": true
+    },
+    {
+      "name": "Fettuccine Alfredo",
+      "description": "Fresh fettuccine tossed in rich, creamy Alfredo sauce with parmesan",
+      "price": "$15.99",
+      "image": "https://images.unsplash.com/photo-1645112411341-6c4fd023714a?w=600&q=80",
+      "category": "pasta",
+      "featured": true
+    },
+    {
+      "name": "Margherita Pizza",
+      "description": "San Marzano tomatoes, fresh mozzarella, basil, and extra virgin olive oil",
+      "price": "$14.99",
+      "image": "https://images.unsplash.com/photo-1574071318508-1cdbab80d002?w=600&q=80",
+      "category": "pizza",
+      "featured": true
+    },
+    {
+      "name": "Lasagna della Casa",
+      "description": "Layers of fresh pasta, seasoned beef, ricotta, mozzarella, and marinara",
+      "price": "$17.99",
+      "image": "https://images.unsplash.com/photo-1619895092538-128341789043?w=600&q=80",
+      "category": "pasta",
+      "featured": true
+    },
+    {
+      "name": "Shrimp Scampi",
+      "description": "Jumbo shrimp sautéed in garlic, white wine, and butter over linguine",
+      "price": "$21.99",
+      "image": "https://images.unsplash.com/photo-1633504581786-316c8002b1b9?w=600&q=80",
+      "category": "seafood",
+      "featured": true
+    },
+    {
+      "name": "Eggplant Parmigiana",
+      "description": "Breaded eggplant layered with marinara and melted mozzarella, served with pasta",
+      "price": "$16.99",
+      "image": "https://images.unsplash.com/photo-1625944230945-1b7dd3b949ab?w=600&q=80",
+      "category": "entree",
+      "featured": true
+    },
+    {
+      "name": "Caprese Salad",
+      "description": "Fresh mozzarella, vine-ripened tomatoes, basil, balsamic glaze, olive oil",
+      "price": "$11.99",
+      "image": "https://images.unsplash.com/photo-1608897013039-887f21d8c804?w=600&q=80",
+      "category": "salad",
+      "featured": true
+    },
+    {
+      "name": "Tiramisu",
+      "description": "Classic Italian dessert with espresso-soaked ladyfingers and mascarpone cream",
+      "price": "$8.99",
+      "image": "https://images.unsplash.com/photo-1571877227200-a0d98ea607e9?w=600&q=80",
+      "category": "dessert",
+      "featured": true
+    }
+  ],
+  "gallery": {
+    "_comment": "Photo gallery section (optional - not currently displayed)",
+    "title": "Gallery",
+    "subtitle": "A Taste of What We Offer",
+    "images": []
+  },
+  "testimonials": [],
+  "locations": {
+    "_comment": "Location and contact information",
+    "title": "Visit Us",
+    "subtitle": "Come Experience Authentic Italian Cuisine by the Beach - Food Near Me, Restaurants Near Me",
+    "mapEmbed": "https://www.google.com/maps?q=Rossellini%27s+Italian+Cuisine,+136+S+Atlantic+Ave,+Daytona+Beach,+FL+32118&output=embed"
+  }
+}

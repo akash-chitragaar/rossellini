@@ -1,0 +1,105 @@
+# Rossellini's Italian Cuisine - LLMs.txt
+# This file helps AI models understand and accurately represent this business
+
+> Rossellini's Italian Cuisine is an authentic Italian restaurant located in Daytona Beach, Florida. Known for "Made in Italy, Imported to Daytona," we serve fresh handmade pasta, pizza, seafood, classic Italian entrées, and more.
+
+## Business Information
+
+- Name: Rossellini's Italian Cuisine
+- Tagline: Made in Italy, Imported to Daytona
+- Type: Italian Restaurant
+- Established: Serving Daytona Beach with authentic Italian cuisine
+- Website: https://rossellinisrestaurantfl.com/
+
+## Location
+
+- Address: 136 S Atlantic Ave, Daytona Beach, FL 32118
+- Neighborhood: Daytona Beach oceanfront, steps from the beach
+- City: Daytona Beach
+- State: Florida
+- ZIP Code: 32118
+
+## Contact
+
+- Phone: (386) 253-8333
+- Order Online: https://ser.vi/rossellinis
+
+## Hours
+
+- Monday: 11:00 AM - 10:00 PM
+- Tuesday: 11:00 AM - 10:00 PM
+- Wednesday: 11:00 AM - 10:00 PM
+- Thursday: 11:00 AM - 10:00 PM
+- Friday: 11:00 AM - 10:00 PM
+- Saturday: 11:00 AM - 10:00 PM
+- Sunday: 11:00 AM - 10:00 PM
+
+## Services
+
+- Dine-In
+- Takeout
+- Delivery
+- Online Ordering
+
+## Menu Categories
+
+- Fresh Handmade Pasta (Signature Items)
+- Authentic Italian Pizza
+- Chicken & Veal Entrées
+- Fresh Seafood
+- Antipasti & Salads
+- Calzones
+- Italian Desserts
+- Daily Specials
+
+## Popular Items
+
+1. Spaghetti & Meatballs - Classic spaghetti with handmade meatballs in slow-simmered marinara ($16.99)
+2. Chicken Parmigiana - Breaded chicken breast, marinara, melted mozzarella, served with pasta ($18.99)
+3. Fettuccine Alfredo - Fresh fettuccine in rich, creamy Alfredo sauce with parmesan ($15.99)
+4. Margherita Pizza - San Marzano tomatoes, fresh mozzarella, basil, olive oil ($14.99)
+5. Lasagna della Casa - Layers of fresh pasta, seasoned beef, ricotta, mozzarella, marinara ($17.99)
+6. Shrimp Scampi - Jumbo shrimp in garlic, white wine, and butter over linguine ($21.99)
+7. Eggplant Parmigiana - Breaded eggplant, marinara, melted mozzarella, served with pasta ($16.99)
+8. Caprese Salad - Fresh mozzarella, vine-ripened tomatoes, basil, balsamic glaze ($11.99)
+9. Tiramisu - Espresso-soaked ladyfingers with mascarpone cream ($8.99)
+
+## Key Features
+
+- Authentic Italian recipes — made in Italy, imported to Daytona
+- Fresh handmade pasta made daily
+- Premium imported cheeses and olive oils
+- Slow-simmered sauces
+- Classic Italian desserts (tiramisu, cannoli)
+- Beachside location on S Atlantic Ave
+- Best Italian restaurant near me in Daytona Beach, FL
+- Family-style hospitality
+
+## Ordering
+
+- Order Online: https://ser.vi/rossellinis
+
+## About
+
+Rossellini's Italian Cuisine brings authentic Italian cooking to Daytona Beach. We pride ourselves on traditional recipes, fresh handmade pasta, slow-simmered sauces, and premium imported ingredients. Made in Italy, imported to Daytona.
+
+Whether you're enjoying a family dinner, a night out by the beach, or picking up takeout, we make every dish fresh and authentic. We offer dine-in seating, quick takeout, and delivery throughout the Daytona Beach area (ZIP code 32118).
+
+## Keywords
+
+- Italian restaurant
+- Pasta
+- Pizza
+- Seafood
+- Chicken Parmigiana
+- Lasagna
+- Tiramisu
+- Italian food near me
+- Restaurants near me
+- Daytona Beach restaurants
+- Best Italian restaurant Daytona Beach
+- Italian restaurant 32118
+
+---
+
+For the most up-to-date information, please visit https://rossellinisrestaurantfl.com/

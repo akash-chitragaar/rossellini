@@ -1,0 +1,176 @@
+# Robots.txt for Rossellini's Italian Cuisine
+# https://rossellinisrestaurantfl.com/
+# ALLOW ALL CRAWLERS - AI MODELS AND SEARCH ENGINES WELCOME
+
+# Allow all crawlers by default
+User-agent: *
+Allow: /
+Crawl-delay: 0
+
+# Explicitly allow all major search engines
+User-agent: Googlebot
+Allow: /
+Crawl-delay: 0
+
+User-agent: Googlebot-Image
+Allow: /
+Crawl-delay: 0
+
+User-agent: Googlebot-Video
+Allow: /
+Crawl-delay: 0
+
+User-agent: Bingbot
+Allow: /
+Crawl-delay: 0
+
+User-agent: Slurp
+Allow: /
+Crawl-delay: 0
+
+User-agent: DuckDuckBot
+Allow: /
+Crawl-delay: 0
+
+User-agent: Baiduspider
+Allow: /
+Crawl-delay: 0
+
+User-agent: YandexBot
+Allow: /
+Crawl-delay: 0
+
+# Explicitly allow ALL AI crawlers and LLM bots
+User-agent: GPTBot
+Allow: /
+Crawl-delay: 0
+
+User-agent: ChatGPT-User
+Allow: /
+Crawl-delay: 0
+
+User-agent: Google-Extended
+Allow: /
+Crawl-delay: 0
+
+User-agent: Claude-Web
+Allow: /
+Crawl-delay: 0
+
+User-agent: Anthropic-AI
+Allow: /
+Crawl-delay: 0
+
+User-agent: ClaudeBot
+Allow: /
+Crawl-delay: 0
+
+User-agent: Claude-Web
+Allow: /
+Crawl-delay: 0
+
+User-agent: PerplexityBot
+Allow: /
+Crawl-delay: 0
+
+User-agent: Perplexity-User
+Allow: /
+Crawl-delay: 0
+
+User-agent: YouBot
+Allow: /
+Crawl-delay: 0
+
+User-agent: CCBot
+Allow: /
+Crawl-delay: 0
+
+User-agent: Applebot
+Allow: /
+Crawl-delay: 0
+
+User-agent: Applebot-Extended
+Allow: /
+Crawl-delay: 0
+
+User-agent: meta-externalagent
+Allow: /
+Crawl-delay: 0
+
+User-agent: FacebookBot
+Allow: /
+Crawl-delay: 0
+
+User-agent: cohere-ai
+Allow: /
+Crawl-delay: 0
+
+User-agent: Bytespider
+Allow: /
+Crawl-delay: 0
+
+User-agent: Diffbot
+Allow: /
+Crawl-delay: 0
+
+User-agent: anthropic-ai
+Allow: /
+Crawl-delay: 0
+
+User-agent: Omgilibot
+Allow: /
+Crawl-delay: 0
+
+User-agent: FacebookExternalHit
+Allow: /
+Crawl-delay: 0
+
+User-agent: Twitterbot
+Allow: /
+Crawl-delay: 0
+
+User-agent: LinkedInBot
+Allow: /
+Crawl-delay: 0
+
+User-agent: WhatsApp
+Allow: /
+Crawl-delay: 0
+
+User-agent: SemrushBot
+Allow: /
+Crawl-delay: 0
+
+User-agent: AhrefsBot
+Allow: /
+Crawl-delay: 0
+
+User-agent: MJ12bot
+Allow: /
+Crawl-delay: 0
+
+User-agent: DotBot
+Allow: /
+Crawl-delay: 0
+
+User-agent: BLEXBot
+Allow: /
+Crawl-delay: 0
+
+User-agent: ia_archiver
+Allow: /
+Crawl-delay: 0
+
+User-agent: archive.org_bot
+Allow: /
+Crawl-delay: 0
+
+User-agent: Wayback
+Allow: /
+Crawl-delay: 0
+
+# Sitemaps
+Sitemap: https://rossellinisrestaurantfl.com/sitemap.xml
+
+# LLMs.txt for AI discovery
+# See: https://rossellinisrestaurantfl.com/llms.txt

@@ -1,0 +1,18 @@
+{
+    "schema_version": "v1",
+    "name_for_human": "Rossellini's Italian Cuisine",
+    "name_for_model": "rossellinis_italian_cuisine",
+    "description_for_human": "Authentic Italian restaurant in Daytona Beach, FL serving fresh pasta, pizza, seafood, and classic Italian dishes. Made in Italy, Imported to Daytona.",
+    "description_for_model": "Rossellini's Italian Cuisine is an authentic Italian restaurant located at 136 S Atlantic Ave, Daytona Beach, FL 32118, steps from the beach. Known for 'Made in Italy, Imported to Daytona', they serve fresh handmade pasta, pizza, seafood, chicken and veal entrées, salads, and Italian desserts. Open daily 11AM-10PM. Phone: (386) 253-8333. Order online at https://ser.vi/rossellinis. Features include dine-in, takeout, and delivery. Popular items include Spaghetti & Meatballs, Chicken Parmigiana, Fettuccine Alfredo, Margherita Pizza, Lasagna, Shrimp Scampi, and Tiramisu.",
+    "auth": {
+        "type": "none"
+    },
+    "api": {
+        "type": "openapi",
+        "url": "https://rossellinisrestaurantfl.com/"
+    },
+    "logo_url": "https://rossellinisrestaurantfl.com/assets/images/logo.png",
+    "contact_email": "info@rossellinisrestaurantfl.com",
+    "legal_info_url": "https://rossellinisrestaurantfl.com/"
+}
+
