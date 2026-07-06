@@ -68,7 +68,7 @@ function asset_url($path)
     <meta property="og:description"
         content="Fresh, fast, Italian restaurant in Daytona Beach. Daily-made ingredients, premium quality. Order online for pickup & delivery!">
     <meta property="og:image"
-        content="https://rossellinisrestaurantfl.com/assets/images/og-image.webp">
+        content="https://rossellinisrestaurantfl.com/assets/images/og-image1.webp">
     <meta property="og:image:width" content="1200">
     <meta property="og:image:height" content="630">
     <meta property="og:image:alt" content="Rossellini's Italian Cuisine - Authentic Italian Restaurant in Daytona Beach, FL">
@@ -83,7 +83,7 @@ function asset_url($path)
     <meta property="twitter:title" content="Rossellini's Italian Cuisine | Best Italian Restaurant in Daytona Beach | Order Now">
     <meta property="twitter:description"
         content="Fresh, fast, Italian restaurant in Daytona Beach. Daily-made ingredients, premium quality. Order online now!">
-    <meta property="twitter:image" content="https://rossellinisrestaurantfl.com/assets/images/og-image.webp">
+    <meta property="twitter:image" content="https://rossellinisrestaurantfl.com/assets/images/og-image1.webp">
     <meta property="twitter:image:alt" content="Rossellini's Italian Cuisine - Authentic Italian Restaurant in Daytona Beach, FL">
     
     <!-- Local Business Schema Markup -->
@@ -225,7 +225,7 @@ function asset_url($path)
         "@type": "Article",
         "headline": "Rossellini's Italian Cuisine - Best Italian Restaurant Near Me in Daytona Beach, FL",
         "description": "Best Italian restaurant near me in Daytona Beach, FL! Located on S Atlantic Ave, serving fresh pasta, pizza, seafood, and classic Italian dishes. Food near me, restaurants near me, Italian food near me.",
-        "image": "https://rossellinisrestaurantfl.com/assets/images/og-image.webp",
+        "image": "https://rossellinisrestaurantfl.com/assets/images/og-image1.webp",
         "author": {
             "@type": "Organization",
             "name": "Rossellini's Italian Cuisine"
