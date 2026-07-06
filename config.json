@@ -69,10 +69,13 @@
     }
   },
   "hero": {
-    "_comment": "Homepage hero section",
+    "_comment": "Homepage hero section. seoText is rendered visually-hidden for crawlers only.",
+    "badge": "4.7 Rated · Daytona Beach, FL",
     "title": "Rossellini's Italian Cuisine",
-    "subtitle": "Made in Italy, Imported to Daytona • Italian Restaurant Near Me • Fresh Pasta • Pizza • Seafood",
-    "description": "Best Italian Restaurant Near Me in Daytona Beach on S Atlantic Ave – Authentic Italian, Made Fresh Daily",
+    "subtitle": "Made in Italy, Imported to Daytona",
+    "description": "Fresh handmade pasta, wood-fired pizza and coastal seafood — steps from the beach on S Atlantic Ave.",
+    "seoText": "Best Italian Restaurant Near Me in Daytona Beach on S Atlantic Ave – Italian Restaurant Near Me, Fresh Pasta, Pizza, Seafood – Authentic Italian, Made Fresh Daily",
+    "chips": ["Dine-In", "Takeout & Delivery", "Reservations"],
     "backgroundImage": "assets/images/hero-bg.jpg",
     "ctaText": "Order Online Now",
     "ctaSecondary": "View Full Menu",
