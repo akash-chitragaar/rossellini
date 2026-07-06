@@ -1,43 +1,33 @@
 # Rossellini's Italian Cuisine - Website
 
-Official website for Rossellini's Italian Cuisine located at 136 S Atlantic Ave, Daytona Beach, NY.
+Official website for Rossellini's Italian Cuisine located at 136 S Atlantic Ave, Daytona Beach, FL 32118.
+
+Live site: https://rossellinisrestaurantfl.com/
 
 ## Features
 
 - **JSON-Controlled Content**: All website content managed through a single `config.json` file
+- **Yelp Reservations & Waitlist**: Embedded Yelp Guest Manager widgets for booking a table or joining the waitlist
 - **Mobile-responsive design**: Optimized for all devices
-- **SEO optimized**: Complete meta tags, schema markup, and structured data
+- **SEO optimized**: Complete meta tags, schema markup (Restaurant, FAQ, Article, Breadcrumb), and structured data
+- **AI/LLM discovery**: `llms.txt` plus explicit AI crawler meta tags
+- **Google Reviews integration**: Live reviews in the testimonials section
 - **Google Maps integration**: Interactive location map
-- **App download page**: Dedicated page with auto-detection for iOS/Android
-- **Clean URL structure**: .htaccess rewrite rules for SEO-friendly URLs
-- **Modern UI**: Beautiful gradient designs with brand colors
+- **Modern UI**: Gradient designs with brand colors, Playfair Display accent typography
 - **Performance optimized**: Lazy loading, preconnect, and optimized assets
+- **Analytics**: Google Analytics 4 (`G-6DT3101J66`) and Ahrefs Analytics
 
-## Pages
+## Page Sections
 
-1. **Home Page** (`home.php`) - Main landing page with:
-   - Hero section with call-to-action
-   - About section with stats
-   - Menu highlights (8 featured items)
-   - Customer testimonials
-   - Location & hours
-   - App download banner
-   - Footer with contact info
+The site is a single landing page (`index.php`) composed of section includes:
 
-   - Auto-detection of iOS/Android devices
-   - Direct links to App Store and Google Play
-   - Feature highlights
-   - Mobile-optimized design
-
-## URLs
-
-- **Main Domain**: https://rossellinisrestaurantfl.com → redirects to home.php
-- **Home Page**: https://rossellinisrestaurantfl.com/home
-
-## App Store Links
-
-- **iOS App Store**: https://apps.apple.com/us/app/rossellinis-italian-cuisine/id6755202972
-- **Google Play Store**: https://play.google.com/store/apps/details?id=com.wnapp.id1762219277961
+1. **Navbar** - Navigation with Reserve a Table link and Order Online CTA
+2. **Hero** - Badge, tagline, description, Order Online / Reserve a Table CTAs
+3. **About** - Story and stats
+4. **Reservations** - Yelp Reservations and Waitlist widgets, phone fallback
+5. **Testimonials** - Live Google Reviews
+6. **Location & Hours** - Bento grid with map, address, hours, and contact
+7. **Footer** - Contact info, quick links, social links
 
 ## File Structure
 
@@ -50,25 +40,25 @@ rosallini/
 ├── assets/
 │   ├── css/
 │   │   └── home-style.css       # Main stylesheet
-│   ├── images/
-│   │   ├── logo.png             # Restaurant logo
-│   │   ├── hero-bg.jpg          # Hero background
-│   │   └── about-deli.jpg       # About section image
+│   ├── images/                  # Logo, hero, about, OG images
 │   └── js/
 │       ├── home-main.js         # Main JavaScript
 │       └── reviews.js           # Google Reviews integration
 ├── includes/
+│   └── schema.php               # Restaurant JSON-LD schema partial
 ├── sections/
 │   ├── navbar.php               # Navigation bar
 │   ├── hero.php                 # Hero section
 │   ├── about.php                # About section
-│   ├── menu.php                 # Menu highlights
+│   ├── reservations.php         # Yelp Reservations & Waitlist widgets
 │   ├── testimonials.php         # Customer reviews (Google Reviews)
 │   ├── location.php             # Location & hours
 │   └── footer.php               # Footer section
+├── .well-known/
+│   └── ai-plugin.json           # AI plugin manifest
 ├── config.json                  # ⭐ MAIN CONFIGURATION FILE
-├── home.php                     # Main landing page
-├── index.php                    # Redirects to home.php
+├── index.php                    # Main landing page
+├── llms.txt                     # AI/LLM site information
 ├── .htaccess                    # URL rewrite rules
 ├── robots.txt                   # Search engine directives
 └── sitemap.xml                  # SEO sitemap
@@ -83,12 +73,13 @@ All website content is controlled by `config.json`. Simply edit this file to upd
 - Restaurant name, tagline, and description
 - Contact information (phone, email, address)
 - Business hours
-- Social media links
+- Social media links (Google, Facebook, Instagram, Yelp)
+- Yelp Reservations & Waitlist URLs (`restaurant.yelp`)
+- Online ordering link (`restaurant.orderLink`)
 - Brand colors (primary, secondary, accent)
-- Hero section content
+- Hero section content (badge, tagline, description, chips)
 - About section content and stats
 - Menu highlights (featured items)
-- Testimonials
 - Google Maps location
 
 ### Brand Colors
@@ -96,17 +87,28 @@ All website content is controlled by `config.json`. Simply edit this file to upd
 Current colors (defined in `config.json`):
 ```json
 "colors": {
-  "primary": "#1e3a5f",      // Dark blue
-  "secondary": "#f39c12",    // Orange/Gold
-  "accent": "#e74c3c",       // Red
-  "light": "#f8f9fa",        // Light gray
-  "dark": "#0d1b2a"          // Very dark blue
+  "primary": "#e63b2e",      // Red
+  "secondary": "#ff7a5c",    // Coral
+  "accent": "#c1150b",       // Dark red
+  "light": "#fff5f3",        // Warm off-white
+  "dark": "#6b120a"          // Deep maroon
 }
 ```
 
 ### Menu Items
 
 To feature menu items on the homepage, set `"featured": true` in the `menuHighlights` array in `config.json`.
+
+## Yelp Reservations & Waitlist
+
+The reservations section embeds Yelp Guest Manager widgets (business slug: `rossellinis-daytona-beach-2`):
+
+- **Reservations widget**: vertical, light theme, 250×490 iframe
+- **Waitlist widget**: 300×330 iframe (minimum 300px wide — narrower clips the content)
+- Both are lazy-loaded with crawlable anchor fallbacks, plus direct Yelp links
+- Restaurant schema `acceptsReservations` points to the Yelp reservations URL
+
+Widget URLs are configured in `config.json` under `restaurant.yelp`.
 
 ## Setup Instructions
 
@@ -118,24 +120,15 @@ To feature menu items on the homepage, set `"featured": true` in the `menuHighli
 6. Configure SSL certificate for HTTPS (recommended)
 7. Update Google Maps embed URL in `config.json`
 
-## Google Maps Setup
-
-1. Go to [Google Maps](https://www.google.com/maps)
-2. Search for your restaurant
-3. Click "Share" → "Embed a map"
-4. Copy the iframe URL
-5. Paste it into `config.json` under `locations.mapEmbed`
-
 ## Technologies Used
 
 - PHP 7.4+
-- HTML5
-- CSS3 (Custom + Bootstrap 5.3.2)
+- HTML5 / CSS3 (Custom + Bootstrap 5.3.2)
 - JavaScript (Vanilla)
-- Bootstrap 5.3.2
 - Bootstrap Icons 1.11.1
-- Google Fonts (Poppins & Inter)
+- Google Fonts (Poppins, Inter & Playfair Display)
 - Google Places API (via Reviews API)
+- Yelp Guest Manager widgets
 
 ## Google Reviews Integration
 
@@ -160,9 +153,9 @@ Reviews API settings in `config.json`:
 ```json
 "api": {
   "restaurantId": "rossellinis",
-  "googlePlaceId": "ChIJIdDN9LvzwokRkp0eiG8Sfv4",
+  "googlePlaceId": "ChIJ04dmZxba5ogRVjZTmKpFbeE",
   "reviewsApiUrl": "https://apireviews.restaurant.ink",
-  "apiKey": "nr_live_pk_..."
+  "apiKey": "ro_live_pk_..."
 }
 ```
 
@@ -171,31 +164,17 @@ Test API integration: `https://rossellinisrestaurantfl.com/api/reviews-api-wrapp
 
 ## Browser Support
 
-- Chrome (latest)
-- Firefox (latest)
-- Safari (latest)
-- Edge (latest)
+- Chrome, Firefox, Safari, Edge (latest)
 - Mobile browsers (iOS Safari, Chrome Mobile)
-
-## Performance Features
-
-- Lazy loading for images
-- Preconnect for external resources
-- Optimized CSS and JavaScript
-- Smooth scroll animations
-- Back-to-top button
-- Mobile-first responsive design
 
 ## SEO Features
 
-- Structured data (JSON-LD)
-- Open Graph tags
-- Twitter Card tags
-- Canonical URLs
-- Sitemap.xml
-- Robots.txt
+- Structured data (JSON-LD): Restaurant, FAQPage, Article, BreadcrumbList
+- `acceptsReservations` linked to Yelp Reservations
+- Open Graph and Twitter Card tags
+- Canonical URLs, sitemap.xml, robots.txt
 - Geo-location meta tags
-- Local business schema
+- llms.txt and AI crawler directives
 
 ## Developer
 
@@ -204,4 +183,3 @@ Developed by Ser.vi Worldwide LLC
 ## Support
 
 For support or customization requests, contact: sal@ser.vi
-
