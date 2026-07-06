@@ -5,7 +5,7 @@
             <!-- About Column -->
             <div class="col-lg-4 col-md-6">
                 <div class="footer-about">
-                    <img src="assets/images/logo.png" alt="<?php echo $restaurant['name']; ?>" class="footer-logo mb-3" width="60" height="60">
+                    <img src="<?php echo asset_url('assets/images/logo.png'); ?>" alt="<?php echo $restaurant['name']; ?>" class="footer-logo mb-3" width="60" height="60">
                     <h5><?php echo $restaurant['name']; ?></h5>
                     <p style="color: rgba(255, 255, 255, 0.7);">Authentic Italian cuisine in Daytona Beach — made in Italy, imported to Daytona. Your beachside Italian restaurant.</p>
                 </div>
@@ -97,7 +97,7 @@
         <div class="row g-4">
             <!-- About Column -->
             <div class="col-12 mb-4">
-                <img src="assets/images/logo.png" alt="<?php echo $restaurant['name']; ?>" class="footer-logo mb-3" width="60" height="60">
+                <img src="<?php echo asset_url('assets/images/logo.png'); ?>" alt="<?php echo $restaurant['name']; ?>" class="footer-logo mb-3" width="60" height="60">
                 <h3 class="footer-brand"><?php echo $restaurant['name']; ?></h3>
                 <p class="mb-3">Authentic Italian cuisine in Daytona Beach — made in Italy, imported to Daytona. Your beachside Italian restaurant.</p>
                 <div class="social-links">

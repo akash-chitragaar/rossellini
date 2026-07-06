@@ -18,7 +18,7 @@
             </div>
             <div class="col-lg-6">
                 <div class="about-image">
-                    <img src="<?php echo $about['image']; ?>" alt="About <?php echo $restaurant['name']; ?>" class="img-fluid rounded shadow-lg" width="753" height="753" loading="lazy">
+                    <img src="<?php echo asset_url($about['image']); ?>" alt="About <?php echo $restaurant['name']; ?>" class="img-fluid rounded shadow-lg" width="753" height="753" loading="lazy">
                 </div>
             </div>
         </div>

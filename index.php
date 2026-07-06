@@ -16,6 +16,14 @@ $testimonials = $config['testimonials'];
 // Get publication dates for byline dates
 $publishedDate = isset($config['dates']['published']) ? $config['dates']['published'] : date('Y-m-d\TH:i:s\Z', filemtime('index.php'));
 $modifiedDate = isset($config['dates']['modified']) ? $config['dates']['modified'] : date('Y-m-d\TH:i:s\Z');
+
+// Cache busting: append the file's modification time to local asset URLs
+// so browsers fetch a fresh copy whenever the file changes.
+function asset_url($path)
+{
+    $mtime = @filemtime($path);
+    return $mtime ? $path . '?v=' . $mtime : $path;
+}
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -338,11 +346,11 @@ $modifiedDate = isset($config['dates']['modified']) ? $config['dates']['modified
         rel="stylesheet">
 
     <!-- Custom CSS -->
-    <link rel="stylesheet" href="assets/css/home-style.css">
+    <link rel="stylesheet" href="<?php echo asset_url('assets/css/home-style.css'); ?>">
 
     <!-- Favicon -->
-    <link rel="icon" type="image/png" href="assets/images/logo.png">
-    <link rel="apple-touch-icon" sizes="180x180" href="assets/images/logo.png">
+    <link rel="icon" type="image/png" href="<?php echo asset_url('assets/images/logo.png'); ?>">
+    <link rel="apple-touch-icon" sizes="180x180" href="<?php echo asset_url('assets/images/logo.png'); ?>">
 </head>
 
 <body>
@@ -418,7 +426,7 @@ $modifiedDate = isset($config['dates']['modified']) ? $config['dates']['modified
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
 
     <!-- Custom JS -->
-    <script src="assets/js/home-main.js"></script>
+    <script src="<?php echo asset_url('assets/js/home-main.js'); ?>"></script>
 
 </body>
 

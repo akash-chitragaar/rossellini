@@ -1,7 +1,7 @@
 <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
     <div class="container">
         <a class="navbar-brand" href="/"">
-            <img src="assets/images/logo.png" alt="<?php echo $restaurant['name']; ?>" class="navbar-logo" width="40" height="40" loading="eager">
+            <img src="<?php echo asset_url('assets/images/logo.png'); ?>" alt="<?php echo $restaurant['name']; ?>" class="navbar-logo" width="40" height="40" loading="eager">
             <?php echo $restaurant['name']; ?>
         </a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" 

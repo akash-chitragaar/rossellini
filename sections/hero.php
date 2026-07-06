@@ -1,5 +1,5 @@
 <!-- Hero Section -->
-<section id="home" class="hero-section" style="background-image: linear-gradient(rgba(30, 5, 3, 0.82), rgba(80, 13, 7, 0.68)), url('<?php echo $hero['backgroundImage']; ?>');">
+<section id="home" class="hero-section" style="background-image: linear-gradient(rgba(30, 5, 3, 0.82), rgba(80, 13, 7, 0.68)), url('<?php echo asset_url($hero['backgroundImage']); ?>');">
     <div class="container h-100">
         <div class="row h-100 align-items-center">
             <div class="col-lg-10 col-xl-8 mx-auto text-center hero-content">
