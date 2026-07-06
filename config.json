@@ -5,7 +5,7 @@
   "dates": {
     "_comment": "Publication dates for SEO byline dates",
     "published": "2020-01-15T00:00:00+00:00",
-    "modified": "2026-07-05T00:00:00+00:00"
+    "modified": "2026-07-07T00:00:00+00:00"
   },
   "restaurant": {
     "name": "Rossellini's Italian Cuisine",
@@ -33,9 +33,17 @@
       "facebook": "",
       "instagram": "",
       "twitter": "",
-      "yelp": ""
+      "yelp": "https://www.yelp.com/biz/rossellinis-daytona-beach-2"
     },
     "orderLink": "https://ser.vi/rossellinis?source=website&campaign=mainsite",
+    "yelp": {
+      "_comment": "Yelp Reservations & Waitlist widgets (Yelp Guest Manager onboarding, Jul 2026)",
+      "slug": "rossellinis-daytona-beach-2",
+      "reservationsWidgetUrl": "https://www.yelp.com/reservations/rossellinis-daytona-beach-2/widget?orientation=vertical&color-scheme=light",
+      "reservationsLink": "https://www.yelp.com/reservations/rossellinis-daytona-beach-2/?from_reserve_now=1",
+      "waitlistWidgetUrl": "https://www.yelp.com/waitlist/rossellinis-daytona-beach-2/widget",
+      "waitlistLink": "https://www.yelp.com/waitlist/rossellinis-daytona-beach-2/?utm_source=rossellinis-daytona-beach-2&utm_medium=nw_restaurant_generic_flow"
+    },
     "colors": {
       "_comment": "Brand colors used throughout the site",
       "primary": "#e63b2e",

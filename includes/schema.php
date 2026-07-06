@@ -10,7 +10,7 @@
     "email": "<?php echo $restaurant['email']; ?>",
     "priceRange": "$$",
     "servesCuisine": ["Italian", "Pizza", "Pasta", "Seafood"],
-    "acceptsReservations": "False",
+    "acceptsReservations": "https://www.yelp.com/reservations/rossellinis-daytona-beach-2/?from_reserve_now=1",
     "address": {
         "@type": "PostalAddress",
         "streetAddress": "<?php echo $restaurant['address']['street']; ?>",

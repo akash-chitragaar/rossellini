@@ -23,6 +23,7 @@
                     <a class="nav-link" href="#location">Location</a>
                 </li>
                 <li class="nav-item">
+                    <a class="nav-link" href="#reservations">Reserve a Table</a>
                 </li>
                 <li class="nav-item">
                     <a class="btn btn-order ms-lg-3 mt-2 mt-lg-0" href="<?php echo $restaurant['orderLink']; ?>" target="_blank" rel="noopener">

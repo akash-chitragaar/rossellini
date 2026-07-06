@@ -894,6 +894,67 @@ img {
     color: var(--white);
 }
 
+/* Reservations & Waitlist Section (Yelp widgets) */
+.reservations-section {
+    background: var(--light-color);
+}
+
+.reservations-grid {
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+    gap: 2rem;
+    flex-wrap: wrap;
+}
+
+.reservation-card {
+    background: white;
+    border-radius: 12px;
+    padding: 2rem;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    max-width: 340px;
+    width: 100%;
+}
+
+.reservation-card .bento-icon {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.reservation-card h3 {
+    font-size: 1.25rem;
+    font-weight: 600;
+    margin-bottom: 0.5rem;
+    color: var(--dark-color);
+}
+
+.reservation-card p {
+    color: var(--text-color);
+    margin-bottom: 1.25rem;
+}
+
+.reservation-widget {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 1.25rem;
+}
+
+.reservation-widget iframe {
+    max-width: 100%;
+    border: 0;
+}
+
+.reservation-cta {
+    margin-top: auto;
+    border-radius: 25px;
+    padding: 0.6rem 1.75rem;
+    font-weight: 600;
+}
+
 /* Responsive Design */
 
 /* Large tablets and small desktops */

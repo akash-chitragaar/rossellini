@@ -91,7 +91,7 @@ $modifiedDate = isset($config['dates']['modified']) ? $config['dates']['modified
         "email": "<?php echo $restaurant['email']; ?>",
         "priceRange": "$$",
         "servesCuisine": ["Italian", "Pizza", "Pasta", "Seafood"],
-        "acceptsReservations": "False",
+        "acceptsReservations": "https://www.yelp.com/reservations/rossellinis-daytona-beach-2/?from_reserve_now=1",
         "address": {
             "@type": "PostalAddress",
             "streetAddress": "<?php echo $restaurant['address']['street']; ?>",
@@ -130,7 +130,8 @@ $modifiedDate = isset($config['dates']['modified']) ? $config['dates']['modified
             ?>
         ],
         "sameAs": [
-            "<?php echo $restaurant['social']['Google']; ?>"
+            "<?php echo $restaurant['social']['Google']; ?>",
+            "<?php echo $restaurant['social']['yelp']; ?>"
         ],
         "menu": "https://rossellinisrestaurantfl.com/#menu",
         "datePublished": "<?php echo $publishedDate; ?>",
@@ -179,6 +180,14 @@ $modifiedDate = isset($config['dates']['modified']) ? $config['dates']['modified
                 "acceptedAnswer": {
                     "@type": "Answer",
                     "text": "Yes, Rossellini's Italian Cuisine offers delivery and takeout in the 32118 area. You can order online for pickup or delivery through our website."
+                }
+            },
+            {
+                "@type": "Question",
+                "name": "Does Rossellini's Italian Cuisine accept reservations?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Yes, Rossellini's Italian Cuisine accepts reservations. You can book a table or join the waitlist online through Yelp Reservations directly from our website, or reserve at https://www.yelp.com/reservations/rossellinis-daytona-beach-2/."
                 }
             },
             {
@@ -347,6 +356,9 @@ $modifiedDate = isset($config['dates']['modified']) ? $config['dates']['modified
     <!-- About Section -->
     <?php include 'sections/about.php'; ?>
 
+    <!-- Reservations & Waitlist Section -->
+    <?php include 'sections/reservations.php'; ?>
+
     <!-- Hidden FAQ Section for Search Engines (Not Displayed) -->
     <div style="display: none;" itemscope itemtype="https://schema.org/FAQPage">
         <div itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
@@ -371,6 +383,12 @@ $modifiedDate = isset($config['dates']['modified']) ? $config['dates']['modified
             <h3 itemprop="name">Does Rossellini's Italian Cuisine offer delivery?</h3>
             <div itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
                 <p itemprop="text">Yes, Rossellini's Italian Cuisine offers delivery and takeout in the 32118 area. You can order online for pickup or delivery through our website.</p>
+            </div>
+        </div>
+        <div itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
+            <h3 itemprop="name">Does Rossellini's Italian Cuisine accept reservations?</h3>
+            <div itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
+                <p itemprop="text">Yes, Rossellini's Italian Cuisine accepts reservations. You can book a table or join the waitlist online through Yelp Reservations directly from our website, or reserve at https://www.yelp.com/reservations/rossellinis-daytona-beach-2/.</p>
             </div>
         </div>
         <div itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">

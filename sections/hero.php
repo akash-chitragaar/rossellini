@@ -10,6 +10,9 @@
                     <a href="<?php echo $restaurant['orderLink']; ?>" class="btn btn-primary btn-lg" target="_blank" rel="noopener">
                         <?php echo $hero['ctaText']; ?>
                     </a>
+                    <a href="#reservations" class="btn btn-outline-light btn-lg">
+                        Reserve a Table
+                    </a>
                 </div>
             </div>
         </div>
