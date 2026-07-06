@@ -22,13 +22,13 @@ $modifiedDate = isset($config['dates']['modified']) ? $config['dates']['modified
 
 <head>
     <!-- Google tag (gtag.js) -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-062VXH3EC2"></script>
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-6DT3101J66"></script>
     <script>
       window.dataLayer = window.dataLayer || [];
       function gtag(){dataLayer.push(arguments);}
       gtag('js', new Date());
 
-      gtag('config', 'G-062VXH3EC2');
+      gtag('config', 'G-6DT3101J66');
     </script>
 
     <!-- Ahrefs Analytics -->
